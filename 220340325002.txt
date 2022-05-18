@@ -112,9 +112,6 @@ class Inventory{
 		 choice=sc.nextInt();
 		switch(choice){
 			case 1:
-					System.out.println("Enter your details  as follows");
-					System.out.println("Enter Item you want add");
-					
 					for(int i=1;i<=1;i++){
 						System.out.println("Enter id of item ");
 						int d=sc.nextInt();
@@ -185,8 +182,7 @@ Enter your choice ==
 3) Remove Item.
 4) Exit
 1
-Enter your details  as follows
-Enter Item you want add
+
 Enter id of item
 6
 Enter name of item
