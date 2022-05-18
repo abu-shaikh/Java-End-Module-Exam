@@ -1,0 +1,40 @@
+public class Car{
+	private int year;
+	private String make;
+	private double speed;
+	
+	Car(int y, String x,double z){
+	this.year=y;
+	this.make=x;
+	this.speed=z;
+	}
+	
+	public int getyear(){
+		return year;
+	}
+	
+	public String getmake(){
+		return make;
+	}
+	
+	public double getspeed(){
+		return speed;
+	}
+	
+	void accelerate(){
+		speed+=1;
+	}
+	
+}
+
+class RaceTrack{
+	public static void main(String[] args){
+	Car c=new Car(2019, "Mercedes", 210.5);
+	System.out.println("Current year is:"+ c.getyear());
+	System.out.println("Current make is:"+ c.getmake());
+	System.out.println("Current speed is:"+ c.getspeed());
+	
+	c.accelerate();
+	System.out.println("Post acceleration, the speed is:"+ c.getspeed());
+	}
+}
