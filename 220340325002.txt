@@ -114,7 +114,6 @@ class Inventory{
 			case 1:
 					System.out.println("Enter your details  as follows");
 					System.out.println("Enter Item you want add");
-					//int n=sc.nextInt();
 					
 					for(int i=1;i<=1;i++){
 						System.out.println("Enter id of item ");
